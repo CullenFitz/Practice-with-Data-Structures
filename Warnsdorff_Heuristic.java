@@ -116,10 +116,6 @@ public class Warnsdorff_Heuristic
         for (int i = 0; i < N * N; ++i)
             a[i] = -1;
 
-        // initial position
-        //int sx = 3;
-        //int sy = 2;
-
         // Current points are same as initial points
         Cell cell = new Cell(sx, sy);
 
